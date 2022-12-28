@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Font1;
+    src: url(Athene.otf);
+  }
+
+  @font-face {
+    font-family: Font2;
+    src: url(HughIsLifePersonalUseItalic-K7axe.ttf);
+  }
+
+  @font-face {
+    font-family: Font4;
+    src: url(TheReason.ttf);
+  }
+
+  @font-face {
+    font-family: Font3;
+    src: url(Heathergreen.otf);
+  }
+  
+.date1
+{
+    transition: color .6s ease-in-out;
+    font-family: Font1;
+    font-size: 20px;
+}
+
+.date1:hover
+{
+    
+    
+    color: #a67a58;
+    
+}
+.text1 {
+    font-family: Font1;
+    font-size: 100px;
+    margin: 0px;
+    
+    transition: color .6s ease-in-out;
+    
+}
+
+.text1:hover
+{
+   
+    
+    color: #a67a58;  
+}
+
+.text2
+{
+    padding: 20px;
+    font-size: 50px;
+    font-family: Font2;
+    transition: color .6s ease-in-out;
+    
+}
+
+.text2:hover
+{
+    
+    color: #a67a58;
+}
+
+.text2 span
+{
+    font-family: Font4;
+    
+}
+
+body{
+    color: white;
+    background: #212121;
+    text-align : center;
+
+    margin: 100px;
+}
+
+.img1
+{
+    
+    width: 500px;
+    height: 500px;
+}
+
+
+.text3
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 100px;
+    font-family: Font4;
+    transition: color .6s ease-in-out;
+    
+}
+
+.text3:hover
+{
+    
+    color: #a67a58;
+}
+
+.img2 
+{
+    width: 600px;
+    height: 600px;
+}
+
+
+.img2:hover
+{
+    
+    width: 600px;
+    height: 600px;
+}
+
+.im
+{
+    background: url("img2.png");
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-size: auto;
+}
+
+.im:hover
+{
+    background: url("giphy.gif");
+    width: 480;
+    height: 480;
+
+}
